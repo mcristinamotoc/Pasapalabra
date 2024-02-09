@@ -18,10 +18,10 @@
 
 /* Title */
 .title {
-  font-size: 30px;
+  font-size: 50px;
   color: white;
   text-align: center;
-  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 /* INPUT TO ANSWER */
@@ -34,7 +34,7 @@
 }
 
 input {
-  border: solid 1px #000;
+  border: solid 1px #750abd;
   padding: 10px;
   font-size: 15px;
   outline: none;
@@ -56,14 +56,13 @@ input {
   background-color: #1a709c;
   color: #fff;
   font-weight: 400;
-  transition: background .2s;
+  transition: background 0.2s;
 }
 
 .button:hover {
-  transition: background .2s;
+  transition: background 0.2s;
   background-color: #155a7d;
 }
-
 
 /* THE CANVAS */
 .content-canvas {
@@ -98,14 +97,13 @@ canvas {
 
 .question {
   padding-top: 10px;
-  font-size: 22px;
+  font-size: 28px;
   color: white;
 }
 
-
 /* ==================RESPOSIVE================== */
-@media screen and (min-width: 430px) {
 
+@media screen and (min-width: 430px) {
   .your-answer {
     flex-direction: row;
   }
@@ -120,19 +118,18 @@ canvas {
 
   canvas {
     width: 80%;
+    max-width: 620px;
   }
 }
-
 
 @media screen and (min-width: 650px) {
   canvas {
     width: 60%;
+    max-width: 620px;
   }
 }
 
-
 @media screen and (min-width: 870px) {
-
   .content-canvas {
     width: 90%;
     flex-direction: row;
@@ -140,7 +137,12 @@ canvas {
   }
 
   canvas {
-    width: 40%;
+    width: 100%;
+    max-width: 620px;
+  }
+
+  .title {
+    font-size: 50px;
   }
 
   .content-text {
@@ -153,7 +155,6 @@ canvas {
   }
 
   .question {
-    font-size: 20px;
+    font-size: 28px;
   }
-
 }
