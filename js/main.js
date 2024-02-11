@@ -17,146 +17,162 @@ const radio = 278;
 const questions = [
   {
     letter: "A",
-    question: "Relación afectiva entre dos o más personas basada en el cariño",
-    answer: "Amistad",
+    question: "Relació afectiva entre dues o més persones basada en afecte.",
+    answer: "Amistat",
   },
   {
     letter: "B",
-    question: "Cualidad de ser bueno, generoso, amable y benevolente",
-    answer: "Bondad",
+    question: "Qualitat de ser bo, generós, amable i afable.",
+    answer: "Bondat",
   },
   {
     letter: "C",
     question:
-      "Creencia en la honestidad, integridad, habilidades y buenas intenciones de otra persona o entidad.",
-    answer: "Confianza",
+      "Creença en l'honestedat, la integritat i les bones intencions d'una altra persona o entitat.",
+    answer: "Confiança",
   },
   {
     letter: "D",
     question:
-      "Compromiso y la entrega total hacia una actividad, tarea o objetivo específico",
-    answer: "Dedicación",
+      "Compromís i lliurament total cap a una activitat, tasca o objectiu específic.",
+    answer: "Dedicació",
   },
   {
     letter: "E",
     question:
-      "Justicia, imparcialidad y tratamiento justo en situaciones diversas.",
+      "Justícia, imparcialitat i tractament just en situacions diverses.",
     answer: "Equitat",
   },
   {
     letter: "F",
     question:
-      "Estado emocional y subjetivo caracterizado por sentimientos de alegría, satisfacción, bienestar y contento.",
+      "Estat emocional i subjectiu caracteritzat per sentiments de joia, satisfacció, benestar i contentament.",
     answer: "Felicitat",
   },
   {
     letter: "G",
     question:
-      "Disposición a dar, compartir o ayudar a los demás de manera desinteresada",
+      "Disposició a donar, compartir o ajudar els altres de manera desinteressada.",
     answer: "Generositat",
   },
   {
     letter: "H",
     question:
-      "Concepto que abarca la integridad, la honestidad y la rectitud en el comportamiento personal",
+      "Concepte que abraça la integritat, l'honestedat i la rectitud en el comportament personal.",
     answer: "Honor",
   },
   {
     letter: "I",
     question:
-      "Principio fundamental de tratar a todas las personas de manera justa y equitativa",
+      "Principi fonamental de tractar totes les persones de manera justa i equitativa.",
     answer: "Igualtat",
   },
   {
     letter: "J",
     question:
-      "Principio ético y moral que se refiere a la equidad, imparcialidad y trato justo en el ámbito social, legal y moral.",
+      "Principi ètic i moral que es refereix a l'equitat, imparcialitat i tracte just a l'àmbit social, legal i moral.",
     answer: "Justícia",
   },
   {
     letter: "K",
-    question: "",
-    answer: "K",
+    //question: "Forma comuna o estàndard d'un idioma, com el grec.",
+    question:"Forma comuna o estàndard d'un idioma, utilitzada per a la comunicació entre parlants de diferents dialectes o variants.",
+    answer: "Koinè",
   },
   {
     letter: "L",
-    question: "",
-    answer: "L",
+    //question: "El compliment d'honor i gratitud.",
+    question:
+      "Qualitat de ser fidel i confiable cap a altres persones o causes.",
+    answer: "Lealtat",
   },
   {
     letter: "LL",
-    question: "",
-    answer: "LL",
+    question:
+      "Paraula que conté la LL, el significat de la qual és: modals cortesos, mostra respecte i actua amb noblesa i honor.",
+    answer: "Cavallerós",
   },
   {
     letter: "M",
-    question: "",
-    answer: "M",
+    question:
+      "És un valor que destaca la importància de no vanagloriar-se i reconèixer les pròpies limitacions.",
+    answer: "Modèstia",
   },
   {
     letter: "N",
-    question: "",
-    answer: "N",
+    //question: "Persona de caràcter honrat i generós.",
+    question:
+      "Qualitat de ser honorable, generós i tenir una conducta digna i respectuosa envers els altres.",
+    answer: "Noblesa",
   },
   {
     letter: "O",
-    question: "",
-    answer: "O",
+    question:
+      "Perspectiva positiva i esperançada del futur, de si mateix i del món que l'envolta.",
+    answer: "Optimisme",
   },
   {
     letter: "P",
-    question: "",
-    answer: "P",
+    question:
+      "La capacitat de persistir i continuar esforçant-se cap a una meta.",
+    answer: "Perseverança",
   },
   {
     letter: "Q",
-    question: "",
-    answer: "Q",
+    question:
+      "Grau d'excel·lència, característiques distintives o propietats que tenen alguna cosa.",
+    answer: "Qualitat",
   },
   {
     letter: "R",
-    question: "",
-    answer: "R",
+    //question: "Raó, relació o proporció d'una cosa a una altra cosa",
+    question:
+      "L'actitud de considerar amb estima i reconèixer els drets i opinions dels altres, demostrant cortesia, tolerància i educació.",
+    answer: "Respecte",
   },
   {
     letter: "S",
-    question: "",
-    answer: "S",
+    question:
+      "Col·laboració i suport mutu entre individus o grups especialment en situacions difícils o de necessitat.",
+    answer: "Solidaritat",
   },
   {
     letter: "T",
-    question: "",
-    answer: "T",
+    question:
+      "Respecte a les idees, creences o pràctiques dels altres quan són diferents o contràries a les pròpies.",
+    answer: "Tolerància",
   },
   {
     letter: "U",
-    question: "",
-    answer: "U",
+    //question: "Acció i efecte d'unir o unir-se",
+    question:
+      "L'acció d'estar junts o connectats, mostrant col·laboració i força conjunta.",
+    answer: "Unió",
   },
   {
     letter: "V",
-    question: "",
-    answer: "V",
+    question: "Fet o gesta heroica executada amb valor.",
+    answer: "Valentia",
   },
   {
     letter: "W",
-    question: "",
-    answer: "W",
-  },
+    question: "Tecnologia de comunicació sense fils que permet la connexió a Internet.",
+    answer: "WiFi",
+  }, 
   {
     letter: "X",
-    question: "",
-    answer: "X",
+    question: "Paraula que conté la X: estat d'ànim intens o elevat",
+    answer: "Exaltació",
   },
   {
     letter: "Y",
-    question: "",
-    answer: "Y",
+    question: "Paraula que conté la Y: expressió d'afecte, tendresa i estima envers altres persones o coses.",
+    answer: "Carinyo",
   },
   {
     letter: "Z",
-    question: "",
-    answer: "Z",
+    question: "L'entusiasme i la dedicació intensa per aconseguir un objectiu o per defensar una causa amb fervor.",
+    answer: "Zel",
   },
 ];
 
@@ -291,41 +307,40 @@ function Pasapalabra() {
 
 //Function to draw the final scores
 function DrawScore() {
-    const textCorrectos = `Correctos: ${corrects}`;
-    const textIncorrectos = `Incorrectos: ${wrongs}`;
-    const fontSize = 30;
-  
-    context.font = `${fontSize}px Impact`;
-  
-    const widthCorrectos = context.measureText(textCorrectos).width;
-    const widthIncorrectos = context.measureText(textIncorrectos).width;
-  
-    // Calculate the maximum width between the words
-    const maxWidth = Math.max(widthCorrectos, widthIncorrectos);
-  
-    const correctosX = (cWidth - maxWidth) / 2;
-    const incorrectosX = (cWidth - maxWidth) / 2;
-    const baselineY = cHeight / 2;
-  
-    const drawText = (text, x, y, color) => {
-      context.fillStyle = color;
-      context.fillText(text, x, y);
-    };
-  
-    // Draw labels
-    drawText("Correctos: ", correctosX, baselineY - 30, "white");
-    drawText("Incorrectos: ", incorrectosX, baselineY + 30, "white");
-  
-    // Draw scores
-    drawText(corrects, correctosX + maxWidth, baselineY - 30, "green");
-    drawText(wrongs, incorrectosX + maxWidth, baselineY + 30, "red");
-  
-    // Hide the last answer and question
-    answer.innerHTML = '';
-    questionDisplay.innerHTML = '';
-    currentLetterIndex = -1; // Reset currentLetterIndex
-  }
-  
+  const textCorrectos = `Correctos: ${corrects}`;
+  const textIncorrectos = `Incorrectos: ${wrongs}`;
+  const fontSize = 30;
+
+  context.font = `${fontSize}px Impact`;
+
+  const widthCorrectos = context.measureText(textCorrectos).width;
+  const widthIncorrectos = context.measureText(textIncorrectos).width;
+
+  // Calculate the maximum width between the words
+  const maxWidth = Math.max(widthCorrectos, widthIncorrectos);
+
+  const correctosX = (cWidth - maxWidth) / 2;
+  const incorrectosX = (cWidth - maxWidth) / 2;
+  const baselineY = cHeight / 2;
+
+  const drawText = (text, x, y, color) => {
+    context.fillStyle = color;
+    context.fillText(text, x, y);
+  };
+
+  // Draw labels
+  drawText("Correctos: ", correctosX, baselineY - 30, "white");
+  drawText("Incorrectos: ", incorrectosX, baselineY + 30, "white");
+
+  // Draw scores
+  drawText(corrects, correctosX + maxWidth, baselineY - 30, "green");
+  drawText(wrongs, incorrectosX + maxWidth, baselineY + 30, "red");
+
+  // Hide the last answer and question
+  answer.innerHTML = "";
+  questionDisplay.innerHTML = "";
+  currentLetterIndex = -1; // Reset currentLetterIndex
+}
 
 // Function to handle answer submission events
 function handleAnswerSubmission() {

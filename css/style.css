@@ -84,7 +84,7 @@ canvas {
 }
 
 .answer {
-  font-size: 25px;
+  font-size: 26px;
 }
 
 .bad {
@@ -97,12 +97,21 @@ canvas {
 
 .question {
   padding-top: 10px;
-  font-size: 28px;
+  font-size: 26px;
   color: white;
 }
 
 /* ==================RESPOSIVE================== */
 
+
+/* Media Query para iPhone y dispositivos móviles similares */
+
+@media screen and (max-width: 375px) {
+  canvas {
+    width: 70%;
+    max-width: 620px;
+  }
+}
 @media screen and (min-width: 430px) {
   .your-answer {
     flex-direction: row;
@@ -137,7 +146,7 @@ canvas {
   }
 
   canvas {
-    width: 100%;
+    width: 40%;
     max-width: 620px;
   }
 
@@ -150,11 +159,11 @@ canvas {
   }
 
   .answer {
-    font-size: 30px;
+    font-size: 34px;
     padding: 15px 0;
   }
 
   .question {
-    font-size: 28px;
+    font-size: 34px;
   }
 }
