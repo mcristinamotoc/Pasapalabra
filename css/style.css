@@ -146,7 +146,7 @@ canvas {
   }
 
   canvas {
-    width: 40%;
+    width: 38%;
     max-width: 620px;
   }
 
@@ -159,11 +159,11 @@ canvas {
   }
 
   .answer {
-    font-size: 34px;
+    font-size: 30px;
     padding: 15px 0;
   }
 
   .question {
-    font-size: 34px;
+    font-size: 30px;
   }
 }
