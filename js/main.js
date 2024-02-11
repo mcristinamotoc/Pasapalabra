@@ -75,15 +75,12 @@ const questions = [
   },
   {
     letter: "K",
-    //question: "Forma comuna o estàndard d'un idioma, com el grec.",
     question:"Forma comuna o estàndard d'un idioma, utilitzada per a la comunicació entre parlants de diferents dialectes o variants.",
     answer: "Koinè",
   },
   {
     letter: "L",
-    //question: "El compliment d'honor i gratitud.",
-    question:
-      "Qualitat de ser fidel i confiable cap a altres persones o causes.",
+    question: "Qualitat de ser fidel i confiable cap a altres persones o causes.",
     answer: "Lealtat",
   },
   {
@@ -100,53 +97,42 @@ const questions = [
   },
   {
     letter: "N",
-    //question: "Persona de caràcter honrat i generós.",
-    question:
-      "Qualitat de ser honorable, generós i tenir una conducta digna i respectuosa envers els altres.",
+    question: "Qualitat de ser honorable, generós i tindre una conducta digna i respectuosa envers els altres.",
     answer: "Noblesa",
   },
   {
     letter: "O",
-    question:
-      "Perspectiva positiva i esperançada del futur, de si mateix i del món que l'envolta.",
+    question: "Perspectiva positiva i esperançada del futur, de si mateix i del món que l'envolta.",
     answer: "Optimisme",
   },
   {
     letter: "P",
-    question:
-      "La capacitat de persistir i continuar esforçant-se cap a una meta.",
+    question: "La capacitat de persistir i continuar esforçant-se cap a una meta.",
     answer: "Perseverança",
   },
   {
     letter: "Q",
-    question:
-      "Grau d'excel·lència, característiques distintives o propietats que tenen alguna cosa.",
+    question: "Grau d'excel·lència, característiques distintives o propietats que tenen alguna cosa.",
     answer: "Qualitat",
   },
   {
     letter: "R",
-    //question: "Raó, relació o proporció d'una cosa a una altra cosa",
-    question:
-      "L'actitud de considerar amb estima i reconèixer els drets i opinions dels altres, demostrant cortesia, tolerància i educació.",
+    question: "L'actitud de considerar amb estima i reconèixer els drets i opinions dels altres, demostrant cortesia, tolerància i educació.",
     answer: "Respecte",
   },
   {
     letter: "S",
-    question:
-      "Col·laboració i suport mutu entre individus o grups especialment en situacions difícils o de necessitat.",
+    question: "Col·laboració i suport mutu entre individus o grups especialment en situacions difícils o de necessitat.",
     answer: "Solidaritat",
   },
   {
     letter: "T",
-    question:
-      "Respecte a les idees, creences o pràctiques dels altres quan són diferents o contràries a les pròpies.",
+    question: "Respecte a les idees, creences o pràctiques dels altres quan són diferents o contràries a les pròpies.",
     answer: "Tolerància",
   },
   {
     letter: "U",
-    //question: "Acció i efecte d'unir o unir-se",
-    question:
-      "L'acció d'estar junts o connectats, mostrant col·laboració i força conjunta.",
+    question: "L'acció d'estar junts o connectats, mostrant col·laboració i força conjunta.",
     answer: "Unió",
   },
   {

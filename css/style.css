@@ -106,7 +106,7 @@ canvas {
 
 /* Media Query para iPhone y dispositivos móviles similares */
 
-@media screen and (max-width: 375px) {
+@media screen and (min-width: 350px) {
   canvas {
     width: 70%;
     max-width: 620px;
@@ -126,7 +126,7 @@ canvas {
   }
 
   canvas {
-    width: 80%;
+    width: 70%;
     max-width: 620px;
   }
 }
